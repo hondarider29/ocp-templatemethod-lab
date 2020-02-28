@@ -1,6 +1,6 @@
 package lab.assignment.afterrefactoring;
 
-class MochaMaker extends CoffeeMaker{
+public class MochaMaker extends CoffeeMaker{
 
     @Override
     protected void brew() {
