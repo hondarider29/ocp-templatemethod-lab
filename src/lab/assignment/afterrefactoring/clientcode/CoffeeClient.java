@@ -14,6 +14,8 @@ public class CoffeeClient {
         starbuzz = new CapuccinoMaker();
         starbuzz.prepareCoffee();
 
+        System.out.println("********************");
+
         starbuzz = new AmericanoMaker();
         starbuzz.prepareCoffee();
     }
